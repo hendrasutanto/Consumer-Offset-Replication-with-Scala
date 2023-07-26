@@ -13,6 +13,15 @@ You can find the documentation and instructions for running this Scala example a
 - Kafka CLI `kafka-console-consumer` - https://www.confluent.io/installation/.
 
 # Setup
+1. Clone this repository.
+   ```bash
+   git clone https://github.com/hendrasutanto/Consumer-Offset-Replication-with-Scala.git
+    ```
+2. Change directory to the example of Scala.
+   ```bash
+   cd Consumer-Offset-Replication-with-Scala
+    ```
+3. Configure the `producer.config` and `consumer.config` files with configuration parameters to connect to your Kafka cluster, if necessary.
 
 ## Produce Records
 1. Compile the Scala code:
