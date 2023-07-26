@@ -1,6 +1,6 @@
 # Scala Producer and Consumer for Confluent Cloud
-
-Produce messages to and consume messages from a Kafka cluster using the Scala Producer and Consumer, and Kafka Streams API.
+## Configuring the Consumer for Failover (Timestamp Preservation)
+You must configure an additional interceptor for consumers from initial deployment in the source cluster. During failover, the interceptor will allow consumers to resume when reading topics that are replicated to the secondary cluster.
 
 # Documentation
 
