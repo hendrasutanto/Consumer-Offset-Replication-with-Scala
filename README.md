@@ -1,4 +1,4 @@
-# Scala Producer and Consumer for Confluent Cloud
+# Consumer Offset Replication with Scala
 ## Configuring the Consumer for Failover (Timestamp Preservation)
 You must configure an additional interceptor for consumers from initial deployment in the source cluster. During failover, the interceptor will allow consumers to resume when reading topics that are replicated to the secondary cluster.
 
